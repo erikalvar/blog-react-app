@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from 'react-router-dom'
 
 import HomePage from "./HomePage";
-import SignIn from "./SignIn";
+import LogIn from "./LogIn";
 import AboutMe from "./AboutMe";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/" element={<HomePage />} />
-        <Route exact path="/signin" element={<SignIn />} />
+        <Route exact path="/login" element={<LogIn />} />
         <Route exact path="/aboutme" element={<AboutMe />} />
       </Routes>
     </div>

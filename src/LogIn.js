@@ -1,8 +1,6 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 
-export default function SignIn() {
-  let{ id } = useParams();
+export default function LogIn() {
   return (
     <>
       <h1>This is a sign in page</h1>

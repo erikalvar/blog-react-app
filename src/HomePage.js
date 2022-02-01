@@ -6,7 +6,7 @@ export default function HomePage() {
     <>
     <h1>This is the home page</h1>
     <p>This is some content</p>
-    <Link to="/signin">Sign In</Link>
+    <Link to="/login">Log In</Link>
     <p></p>
     <Link to="/aboutme">About Me</Link>
     </>
